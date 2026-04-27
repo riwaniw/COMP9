@@ -14,8 +14,11 @@ First, I used the .csv Reader so that python can use all of the data from the su
 
 Then we created a heatmap of values of preferring pre-lecture videos based on difficulty and understanding. What this does is looks at the number of students who assigned each score to both columns, darker squares mean more students selected that combination of rankings.
 
-<img src="<COMP9>/static/imgs/heatmap1" alt="Difficulty Heatmap"  width="500"/>
-<img src="<COMP9>/static/imgs/heatmap2" alt="Understanding Heatmap"  width="500"/>
+<img src="{{ '/static/imgs/heatmap1.png' | relative_url }}" 
+     alt="Difficulty Heatmap" width="500" />
+
+<img src="{{ '/static/imgs/heatmap2.png' | relative_url }}" 
+     alt="Understanding Heatmap" width="500" />
 
 Next, we created a bar-graph/histogram based on prior experience and rankings of preference for pre-lecture videos. To make this data even clearer we created a box plot to see where most of the data lies for each group based on experience level.
 
